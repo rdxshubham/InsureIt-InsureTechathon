@@ -8,7 +8,7 @@ class TrueCallerData(models.Model):
     name = models.CharField(max_length=100, null=True)
     gender = models.CharField(max_length=20, null=True)
     mobile = models.CharField(max_length=20, null=True)
-    email = models.EmailField(null=True)
+    email = models.CharField(max_length=100, null=True)
     area = models.CharField(max_length=50, null=True)
     create_time = models.DateTimeField(null=True)
 

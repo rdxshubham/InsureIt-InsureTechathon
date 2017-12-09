@@ -37,5 +37,8 @@ class TrueCallerSerializer(serializers.HyperlinkedModelSerializer):
             validated_data['area'] = None
         validated_data['create_time'] = datetime.now()
         truecaller_data = TrueCallerData.objects.create(**validated_data)
+        self.context['request'].session['id'] = truecaller_data.id
+        self.context['request'].session['name'] = validated_data['name']
+        self.context['request'].session['status'] = True
         return truecaller_data
 

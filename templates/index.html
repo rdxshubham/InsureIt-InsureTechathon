@@ -1,14 +1,54 @@
 {% extends "base.html" %}
 {% block content %}
+
     <main role="main" class="inner cover">
         <h1 class="cover-heading">Learn more about Insurances so that you could InsureIt.</h1>
         <div class="all_service_tab">
+        {% if not request.session.status %}
+
+            <div class="input-group" id="goDiv">
+                <span class="input-group-addon" id="sizing-addon1">+91</span>
+                  <input type="text" class="form-control" id="txtMobile" placeholder="Mobile Number">
+                  <span class="input-group-btn">
+                    <button class="btn btn-secondary modal-toggle" data-toggle="modal" data-target="#myModal" id="truecallerBtn" type="button">Go!</button>
+                  </span>
+                </div>
+            {% else %}
+
+        <p>Welcome Mr. {{ request.session.name }}, Let's Educate you on Insurance.</p>
             <a onclick="" href="javascript:void(0);" class="circleTab v3term"><span>Home</span></a>
             <a onclick="" href="javascript:void(0);" class="circleTab v3car"><span>Vehicle</span></a>
+            {% endif %}
         </div>
         <p class="lead"></p>
 {#        <p class="lead">#}
 {#          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>#}
 {#        </p>#}
     </main>
+<div class="alert alert-success alert-dismissible fade show" role="alert" style="display: none;">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  Data Updated.
+</div>
+
+<div id="login_for_review" class="modal hide"  role="dialog">
+
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel"></h4>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="modalSet">Set</button>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock content %}

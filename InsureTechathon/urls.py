@@ -19,13 +19,14 @@ from django.urls import path, include
 
 from rest_framework import routers
 from api.views import TruecallerViewSet
-from game.views import IndexView
+from game.views import IndexView, LogoutView
 
 router = routers.DefaultRouter()
 router.register(r'truecaller', TruecallerViewSet)
 
 urlpatterns = [
     url(r'^$', IndexView.as_view(), name='index'),
+    url(r'^logout/$', LogoutView.as_view(), name='logout'),
     url(r'^api/', include(router.urls)),
     path('admin/', admin.site.urls),
 ]
