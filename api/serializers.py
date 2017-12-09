@@ -40,5 +40,6 @@ class TrueCallerSerializer(serializers.HyperlinkedModelSerializer):
         self.context['request'].session['id'] = truecaller_data.id
         self.context['request'].session['name'] = validated_data['name']
         self.context['request'].session['status'] = True
+        self.context['request'].session['area'] = validated_data['area']
         return truecaller_data
 

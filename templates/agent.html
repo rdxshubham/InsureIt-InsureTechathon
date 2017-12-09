@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+     <main role="main" class="inner cover">
+        <h1 class="cover-heading">Agent Selection.</h1>
+        <div class="all_service_tab">
+        {% if not request.session.status %}
+
+            <div class="input-group" id="goDiv">
+               <p>Please go back to home and start again. You cant access this page directly.</p>
+                </div>
+            {% else %}
+
+        <p>Hello Mr. {{ request.session.name }}, Whom you trust?</p>
+            <a href='{% url "area" %}' style="cursor: pointer;" ><label for="agent1" class="hover"><span style="cursor: pointer;" class="sophia">Sophia</span></label></a>
+            <a href='{% url "area" %}' style="cursor: pointer;" ><label for="agent2" class=""><span style="cursor: pointer;"  class="vernon">Vernon</span></label></a>
+
+            {% endif %}
+        </div>
+        <p class="lead"></p>
+
+    </main>
+{% endblock content %}

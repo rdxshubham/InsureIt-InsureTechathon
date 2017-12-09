@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 
 <style>
+
     button {
     cursor: pointer;
 }
@@ -108,6 +109,29 @@
     height: 50px;
     background-position: -675px -506px;
 }
+
+.circleTab.agentBoy {
+    background: #DAA520;
+}
+.circleTab.agentBoy:before {
+    content: " ";
+    background: transparent url({% static "game/images/agent_sprit_new.png" %}) no-repeat;
+    opacity: 1;
+    font-size: 32px;
+    top: 25px;
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px auto;
+    vertical-align: middle;
+    background-position: 0px 0px;
+    height: 100px;
+    background-position: -782px -746px;
+}
+
 .circleTab.v3car {
     background: #DAA520;
 }
@@ -129,6 +153,54 @@
     height: 50px;
     background-position: -6px 5px;
 }
+.agent-screen .icheckbox_square-orange,
+.agent-screen .iradio_square-orange{
+	position:absolute;
+	bottom:15px;
+	left:55px;
+}
+
+.agent-screen label.hover .sophia,.agent-screen label.hover:focus .sophia,.agent-screen label.selected .sophia{
+	background-position:0 -130px;
+}
+
+.sophia {
+    background-position: 0 0;
+}
+
+.area {
+    display: block;
+    width: 350px;
+    height: 130px;
+    text-indent: -9999px;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    background-image: url({% static "game/images/location_sprite.png" %});
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: -343px -89px;
+}
+.sophia, .vernon, .marcy, .jacob, .gary, .isabella {
+    display: block;
+    width: 250px;
+    height: 130px;
+    text-indent: -9999px;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    background-image: url({% static "game/images/agents.png" %});
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.vernon{
+	background-position:-250px 0;
+}
+.agent-screen label.hover .vernon,.agent-screen label.hover:focus .vernon,.agent-screen label.selected .vernon{
+	background-position:-250px -130px;
+}
+
 @media screen and (min-width: 1900px) {
     .all_service_tab {
         width: 88%;

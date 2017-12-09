@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+     <main role="main" class="inner cover">
+        <h1 class="cover-heading">Oh Great! You are a Player from {{ request.session.area }}, India</h1>
+        <div class="all_service_tab">
+        {% if not request.session.status %}
+
+            <div class="input-group" id="goDiv">
+               <p>Please go back to home and start again. You cant access this page directly.</p>
+                </div>
+            {% else %}
+
+
+            <p>Do you know, In the event of accident, the car owner should immediately inform the insurer about the incidence and file FIR in case of severe damage to the car by third party. Such prompt action is required to start the Claim process.</p>
+            <label for="agent1" class="hover"><span class="area">Location</span></label>
+
+
+            {% endif %}
+        </div>
+        <p class="lead"></p>
+
+    </main>
+{% endblock content %}

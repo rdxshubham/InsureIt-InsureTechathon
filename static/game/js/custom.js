@@ -40,10 +40,11 @@ $('#modalSet').click(function () {
         type: "put",
         data: data,
         success: function (result) {
-            sessionStorage.setItem('id', id);
+
             $('#myModal').modal('toggle');
             $('.alert').css("display", "block");
-            $('#goDiv').css("display", "none");
+            location.reload();
+
         }
     });
 
