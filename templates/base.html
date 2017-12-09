@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block head_title %} InsureIt - Insure Techathon {% endblock head_title %}</title>
+    {% include 'snippets/css.html' %}
+</head>
+<body>
+
+ <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+            {% include 'snippets/nav.html' %}
+            {% block content %} {% endblock content %}
+
+            <footer class="mastfoot">
+                <div class="inner">
+                  <p>Made with <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> for Insure Techathon.</p>
+                </div>
+             </footer>
+        </div>
+
+      </div>
+
+    </div>
+
+
+{% include 'snippets/js.html' %}
+</body>
+</html>
