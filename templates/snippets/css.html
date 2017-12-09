@@ -1,3 +1,323 @@
+{% load static %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/cover/cover.css" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+<style>
+    .all_service_tab .circleTab {
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 20px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    background: #ffffff;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+    transition: transform ease-out 0.1s, background 0.2s;
+}
+.all_service_tab .circleTab fig {
+    position: absolute;
+    top: -7px;
+    right: -8px;
+    background: url({% static "game/caicon-bg.png" %}) no-repeat 0 0;
+    padding: 20px 15px;
+    border-radius: 50%;
+    color: #f90;
+    font-weight: 500;
+}
+.all_service_tab .circleTab:hover {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    color: #fff;
+}
+.all_service_tab .circleTab:hover:after {
+    -webkit-animation: sonarEffect 1s ease-out 10ms;
+    -moz-animation: sonarEffect 1s ease-out 10ms;
+    animation: sonarEffect 1s ease-out 10ms;
+}
+.all_service_tab .circleTab:before {
+    font-family: FontAwesome;
+    speak: none;
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+.all_service_tab .circleTab:after {
+    font-family: FontAwesome;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transform: scale(0.87);
+    -moz-transform: scale(0.87);
+    -ms-transform: scale(0.87);
+    transform: scale(0.87);
+}
+.circleTab.v3term {
+    background: #DAA520;
+}
+.circleTab.v3term:before {
+    content: " ";
+    background: transparent url({% static "game/sprite_img4.png" %}) no-repeat;
+    opacity: 1;
+    font-size: 32px;
+    top: 25px;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px auto;
+    vertical-align: middle;
+    background-position: 0px 0px;
+    height: 50px;
+    background-position: -675px -506px;
+}
+.circleTab.v3car {
+    background: #DAA520;
+}
+.circleTab.v3car:before {
+    content: " ";
+    background: transparent url({% static "game/sprite_img4.png" %}) no-repeat;
+    opacity: 1;
+    font-size: 32px;
+    top: 25px;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px auto;
+    vertical-align: middle;
+    background-position: 0px 0px;
+    height: 50px;
+    background-position: -6px 5px;
+}
+@media screen and (min-width: 1900px) {
+    .all_service_tab {
+        width: 88%;
+        margin: 55px auto;
+    }
+    .all_service_tab .circleTab {
+        zoom: 1.3;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px){
+    .all_service_tab .circleTab {
+        margin: 30px;
+    }
+}
+    @media screen and (max-width: 640px){
+        .all_service_tab {
+        margin: 0px auto 0px;
+        width: 555px;
+    }
+    .all_service_tab .circleTab {
+        font-size: 11px;
+        height: 74px;
+        margin: 25px 6px;
+        padding-top: 0 !important;
+        width: 84px;
+        border-radius: 5px !important;
+        box-shadow: 0px 2px 4px rgba(10, 11, 11, 0.2) !important;
+    }
+    .all_service_tab .circleTab {
+        border-radius: 0px;
+      .all_service_tab .circleTab {
+        float: left;
+        display: block;
+    }
+    .all_service_tab .circleTab::before {
+        line-height: 65px;
+    }
+    .all_service_tab:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .all_service_tab .circleTab {
+        margin: 10px 4px 0;
+    }
+
+    }
+    @media screen and (max-width: 540px){
+
+    }
+    @media screen and (max-width: 480px){
+        .all_service_tab .circleTab {
+        font-size: 11px;
+        height: 70px;
+        margin: 4px 8px;
+        padding-top: 0!important;
+        width: 99px;
+        border-radius: 5px!important;
+        box-shadow: 0 2px 4px rgba(10, 11, 11, 0.2)!important;
+    }
+    .all_service_tab .circleTab fig {
+        top: -9px;
+    }
+    .all_service_tab {
+        width: 463px
+    }
+    }
+
+
+    @media screen and (max-width: 440px){
+        .all_service_tab .circleTab {
+        font-size: 11px;
+        height: 70px;
+        margin: 10px 6px;
+        padding-top: 0 !important;
+        width: 97px;
+        border-radius: 5px !important;
+        box-shadow: 0px 2px 4px rgba(10, 11, 11, 0.2) !important;
+    }
+    .all_service_tab {
+        margin: 0px auto 0px;
+        width: 328px;
+    }
+    .all_service_tab .circleTab {
+        border-radius: 0px;
+    }
+
+    }
+    @media screen and (max-width: 360px){
+
+    .all_service_tab {
+        margin: 0px auto 0px;
+        width: 290px;
+    }
+        .all_service_tab .circleTab {
+        font-size: 11px;
+        height: 70px;
+        margin: 10px 6px;
+        padding-top: 0 !important;
+        width: 84px;
+    }
+    .all_service_tab {
+        margin: 30px auto 0px;
+        width: 290px;
+    }
+
+    }
+    @media screen and (max-width: 320px){
+
+    }
+    @media screen and (max-height: 320px){
+
+    .all_service_tab {
+        margin: 15px auto 0px;
+    }
+    .all_service_tab .circleTab {
+        margin: 10px 6px;
+    }
+    .all_service_tab {
+        margin: 38px auto 0px;
+    }
+    .all_service_tab .circleTab {
+        margin: 10px 4px 0px;
+    }
+
+    }
+    @media screen and (max-height: 290px){
+
+    }
+    @media screen and (max-width: 1024px){
+        .all_service_tab {
+        width: 98%;
+        margin: 55px auto;
+    }
+    .all_service_tab .circleTab {
+        margin: 20px 10px;
+    }
+    }
+    @media screen and (max-width: 736px){
+
+    }
+    @media only screen and (max-width: 801px) {
+        .all_service_tab .circleTab {
+        margin: 30px 20px;
+    }
+    }
+    @media only screen and (max-width: 768px) {
+        .all_service_tab .circleTab fig {
+        position: absolute;
+        top: -9px;
+        right: -25px;
+        background: url({% static "game/caicon-bg.png" %}) no-repeat 0 0;
+        padding: 14px 22px 13px 9px;
+        border-radius: 50%;
+        color: #f90;
+        background-size: 80%;
+        font-weight: 500;
+    }
+        .all_service_tab {
+        margin: 10px auto 0px;
+        width: 700px;
+    }
+    .all_service_tab .circleTab {
+        margin: 10px 50px;
+    }
+    }
+    @media only screen and (min-width: 667px) and (max-width: 740px) {
+        .all_service_tab {
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+    }
+    .all_service_tab .circleTab {
+        margin: 10px;
+    }
+    .all_service_tab .circleTab {
+        font-size: 10px;
+        height: 70px;
+        margin: 10px 6px;
+        padding-top: 0 !important;
+        width: 90px;
+        border-radius: 5px !important;
+        box-shadow: 0px 2px 4px rgba(10, 11, 11, 0.2) !important;
+    }
+    .all_service_tab .circleTab {
+        border-radius: 0px;
+    }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .all_service_tab .circleTab fig {
+        top: 0px;
+        right: -17px;
+    }
+}
+
+</style>
