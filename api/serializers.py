@@ -38,3 +38,4 @@ class TrueCallerSerializer(serializers.HyperlinkedModelSerializer):
         validated_data['create_time'] = datetime.now()
         truecaller_data = TrueCallerData.objects.create(**validated_data)
         return truecaller_data
+
