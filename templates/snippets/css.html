@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/cover/cover.css" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href='{% static "game/css/main.css" %}' crossorigin="anonymous">
 
 <style>
 
@@ -210,7 +211,101 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
+.beach{
+	background-position:0 0;
+}
+.beach,.cottage,.colonial,.modern,.ranch,.stucco,.townhouse,.victorian{
+	display:block;
+	width:190px;
+	height:135px;
+	text-indent:-9999px;
+	line-height:0;
+	font-size:0;
+	color:transparent;
+	background-image:url({% static "game/images/houses.png" %});
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
 
+.house-screen label.hover .beach,.house-screen label.hover:focus .beach,.house-screen label.selected .beach{
+	background-position:0 -135px;
+}
+.cottage {
+    background-position: -380px 0;
+}
+.colonial{
+	background-position:-190px 0;
+}
+.victorian{
+	background-position:-1330px 0;
+}
+body
+{
+    font-family: arial;
+}
+
+/* Sets the background image for the wheel */
+td.the_wheel
+{
+    background-image: url({% static "game/images/wheel_back.png" %});
+    background-position: center;
+    background-repeat: none;
+}
+
+/* Do some css reset on selected elements */
+
+
+div.power_controls
+{
+    margin-right:70px;
+}
+
+div.html5_logo
+{
+    margin-left:70px;
+}
+
+/* Styles for the power selection controls */
+table.power
+{
+    background-color: #cccccc;
+    cursor: pointer;
+    border:1px solid #333333;
+}
+
+table.power th
+{
+    background-color: white;
+    cursor: default;
+}
+
+td.pw1
+{
+    background-color: #6fe8f0;
+}
+
+td.pw2
+{
+    background-color: #86ef6f;
+}
+
+td.pw3
+{
+    background-color: #ef6f6f;
+}
+
+/* Style applied to the spin button once a power has been selected */
+.clickable
+{
+    cursor: pointer;
+}
+
+/* Other misc styles */
+.margin_bottom
+{
+    margin-bottom: 5px;
+}
 @media screen and (min-width: 1900px) {
     .all_service_tab {
         width: 88%;

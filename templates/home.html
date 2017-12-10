@@ -1,0 +1,29 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+     <main role="main" class="inner cover">
+        <h1 class="cover-heading">Choose your House.</h1>
+        <div class="all_service_tab">
+        {% if not request.session.status %}
+
+            <div class="input-group" id="goDiv">
+               <p>Please go back to home and start again. You cant access this page directly.</p>
+                </div>
+            {% else %}
+
+            #Beach House ($150,000, Wood Frame, 5 Years Old) Note: Insurance companies base your rates in part on the type of construction materials used to build your home.  Wood frame homes are less fire-resistant than stucco or brick, so they typically cost more to insure.
+            <p>Credit is an Important Rating Factor.</p>
+            <a href='{% url "houseform" %}' data-toggle="tooltip" data-placement="bottom" title="Rs 5600000, 5 years old, Wood Frame | Premium Rs.10000" ><label for="house1" class="hover"><span style="cursor: pointer;" class="beach"></span></label></a>
+            <a href='{% url "houseform" %}' data-toggle="tooltip" data-placement="bottom" title="Rs 5600000, 30 years old, Wood Frame | Premium Rs.10000" ><label for="house2" class="hover"><span style="cursor: pointer;" class="cottage"></span></label></a>
+            <a href='{% url "houseform" %}' data-toggle="tooltip" data-placement="bottom" title="Rs 5600000, 10 years old, Brick Frame | Premium Rs.10000" ><label for="house3" class="hover"><span style="cursor: pointer;" class="colonial"></span></label></a>
+            <a href='{% url "houseform" %}' data-toggle="tooltip" data-placement="bottom" title="Rs 5600000, 150 years old, Wood Frame | Premium Rs.10000" ><label for="house4" class="hover"><span style="cursor: pointer;" class="victorian"></span></label></a>
+{#            <a href="#" data-toggle="tooltip" data-placement="bottom" title="The amount of money you are left in the bank.| Premium - Your annual insurance cost."><h3 class="cover-heading">Bank: Rs. {{ request.session.amount }} || Premium: Rs. {{ request.session.house_premium }}</h3></a>#}
+
+
+            {% endif %}
+        </div>
+        <p class="lead"></p>
+
+    </main>
+{% endblock content %}

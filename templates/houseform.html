@@ -1,0 +1,69 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+     <main role="main" class="inner cover">
+        <h1 class="cover-heading">Choose your Coverage</h1>
+        <div class="all_service_tab">
+        {% if not request.session.status %}
+
+            <div class="input-group" id="goDiv">
+               <p>Please go back to home and start again. You cant access this page directly.</p>
+                </div>
+            {% else %}
+
+
+            <p>My Houseowners Policy, HDFC Life, Bengaluru, India</p>
+            <label for="policno">Policy Number : <b>12345-67-89</b> || Policy Period: <b>10-12-2017 to 10-12-2018</b></label>
+            <label for="coveragetype">Coverage Type</label>
+            <input type="radio" name="covType">No Coverage || <input type="radio" name="covType">Actual Cash Value || <input type="radio" name="covType">Replacement Cost(+Rs. 1200)<br>
+            <label for="section1"><u>Section 1 - Property</u></label>
+            <table style="width:100%">
+            <tr>
+                <th>Dwelling</th>
+                <th></th>
+                <th>Other Structures</th>
+                <th></th>
+                <th>Personal Property</th>
+                <th></th>
+                <th>Loss of use</th>
+            </tr>
+            <tr>
+                <td>Rs.2000000</td>
+                <td></td>
+                <td>Rs.100000</td>
+                <td></td>
+                <td>Rs.500000</td>
+                <td></td>
+                <td>Rs.300000</td>
+            </tr>
+            </table>
+            <label for="section2"><u>Section 2 - Liability</u></label>
+            <table style="width: 100%">
+            <tr>
+                <th>Personal Liability</th>
+                <th>Medical Payments</th>
+            </tr>
+            <tr>
+                <td>Rs. 600000</td>
+                <td>Rs. 60000</td>
+            </tr>
+            </table>
+            <label for="extraoptional"><u>Optional Extra Policies</u></label>
+            <input type="checkbox" id="wind"> Wind/Hail (+ Rs. 5000) || <input type="checkbox" id="flood"> Flood (+ Rs. 36000) || <input type="checkbox" id="earthquake"> Earthquake (+ Rs. 5000)
+            <br>
+            <label for="anual" style="float: left;"><b><u>Annual Premium</u></b></label>
+            <div class="input-group">
+
+                  <input type="text" class="form-control" id="annualPremium" value="Rs. 60000" disabled>
+                  <span class="input-group-btn">
+                      <a href='{% url "game" %}' ><button class="btn btn-secondary" id="playBtn" type="button">Play!</button></a>
+                  </span>
+                </div>
+
+            {% endif %}
+        </div>
+        <p class="lead"></p>
+
+    </main>
+{% endblock content %}

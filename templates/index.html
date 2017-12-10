@@ -16,7 +16,7 @@
             {% else %}
 
         <p>Welcome Mr. {{ request.session.name }}, Let's Educate you on Insurance.</p>
-            <a onclick="" href="javascript:void(0);" class="circleTab v3term"><span>Home</span></a>
+            <a onclick="" href='{% url "agent" %}' class="circleTab v3term"><span>Home</span></a>
             <a onclick="" href='{% url "agent" %}' class="circleTab v3car"><span>Vehicle</span></a>
             {% endif %}
         </div>
