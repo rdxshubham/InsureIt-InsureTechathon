@@ -18,8 +18,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 from rest_framework import routers
-from api.views import TruecallerViewSet
+from api.views import TruecallerViewSet, GetPolicyQuotes
 from game.views import IndexView, LogoutView, VehicleView, AgentView, AreaView
+from policycompare.views import PolicyCompareView
 
 router = routers.DefaultRouter()
 router.register(r'truecaller', TruecallerViewSet)
@@ -30,6 +31,8 @@ urlpatterns = [
     url(r'^agent/$', AgentView.as_view(), name='agent'),
     url(r'^area/$', AreaView.as_view(), name='area'),
     url(r'^vehicle/$', VehicleView.as_view(), name='vehicle'),
+    url(r'^getquotes/$', GetPolicyQuotes.as_view(), name='getquotes'),
+    url(r'^policy/$', PolicyCompareView.as_view(), name='policy'),
     url(r'^api/', include(router.urls)),
     path('admin/', admin.site.urls),
 ]
