@@ -30,7 +30,7 @@
 {##}
 {##}
 {#                </div>#}
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#modal1">
                     <img class="card-img-top img-fluid" src="{{ "https://www.easypolicy.com/HomePage"|add:quote.InsurerLogo }}" alt="Card image cap">
                     <div class="card-block">
                       <h4 class="card-title" style="color: black">{{ quote.AvailablePolicyTerm }}</h4>
@@ -39,10 +39,53 @@
                         <small class="text-muted" style="color: black;">
                           Premium <cite title="Source Title">{{ quote.Premium }}</cite>
                         </small>
+
                       </footer>
                     </div>
                 </div>
+<div class="modal fade" id="modal1" role="dialog">
+                            <div class="modal-dialog">
 
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                    <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                      <h5 id = "m1" class="modal-title" style="color: black">{{ quote.RiderName }}</h5>
+
+                                  </div>
+                                 <h5  id = "m2" style="color: black">{{ quote.AvailablePolicyTerm }}</h5>
+                                  <h5  id = "m3"style="color: black">Premium : {{ quote.Premium }}</h5>
+                                  <h6  id = "m4"style="color: black">{{ quote.Summary }}</h6>
+
+                                  <h7 style="color: black"><u>TaxBenifit :</u> {{ quote.TaxBenifit }}</h7>
+
+                                  <h7 style="color: black"><u>Exclusion :</u> {{ quote.Exclusion }}</h7>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel"></h4>
+                  </div>
+                  <div class="modal-body" id="modal-body"></div>
+                  <div class="modal-footer">
+
+
+                      <h3>{{ quote.Summary }}</h3>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="modalSet">Set</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             {%  endfor %}
 {#            </div>#}
             </div>

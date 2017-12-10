@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="13db512d-5819-4018-9ae4-c0803ad00ba3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/static/game/js/custom.js" afterPath="$PROJECT_DIR$/game/static/game/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/game/js/custom.js" afterPath="$PROJECT_DIR$/static/game/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/policy.html" afterPath="$PROJECT_DIR$/templates/policy.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,71 +39,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InsureTechathon/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-              <folding>
-                <element signature="e#639#671#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/static/game/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="area.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/area.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="22" />
-              <folding>
-                <element signature="e#1201#1235#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/static/game/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
               <folding>
-                <marker date="1512879105936" expanded="true" signature="349:375" ph="..." />
-                <marker date="1512879105936" expanded="true" signature="549:575" ph="..." />
-                <marker date="1512879105936" expanded="true" signature="754:780" ph="..." />
-                <marker date="1512879105936" expanded="true" signature="955:981" ph="..." />
+                <marker date="1512887740244" expanded="true" signature="349:375" ph="..." />
+                <marker date="1512887740244" expanded="true" signature="549:575" ph="..." />
+                <marker date="1512887740244" expanded="true" signature="754:780" ph="..." />
+                <marker date="1512887740244" expanded="true" signature="955:981" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/snippets/js.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="181" column="65" lean-forward="false" selection-start-line="181" selection-start-column="65" selection-end-line="181" selection-end-column="65" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="784">
+                <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/snippets/nav.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="615">
+              <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +82,7 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="780">
               <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -118,41 +92,63 @@
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/views.py">
+        <entry file="file://$PROJECT_DIR$/policycompare/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/game.html">
+      <file leaf-file-name="policy.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/policy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state relative-caret-position="216">
+              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
-                <element signature="e#1763#1769#0#HTML" expanded="true" />
-                <element signature="e#1769#1775#0#HTML" expanded="true" />
-                <element signature="e#1845#1851#0#HTML" expanded="true" />
-                <element signature="e#1851#1857#0#HTML" expanded="true" />
-                <element signature="e#1857#1863#0#HTML" expanded="true" />
-                <element signature="e#1863#1869#0#HTML" expanded="true" />
-                <element signature="e#1869#1875#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#canvas#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="e#1652#1672#0#HTML" expanded="true" />
+                <element signature="e#1753#1773#0#HTML" expanded="true" />
+                <element signature="e#1881#1902#0#HTML" expanded="true" />
+                <element signature="e#2575#2595#0#HTML" expanded="true" />
+                <element signature="e#2713#2733#0#HTML" expanded="true" />
+                <element signature="e#2819#2839#0#HTML" expanded="true" />
+                <element signature="e#2923#2943#0#HTML" expanded="true" />
+                <element signature="e#3008#3028#0#HTML" expanded="true" />
+                <element signature="e#3116#3136#0#HTML" expanded="true" />
+                <element signature="e#3918#3925#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InsureTechathon/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +177,7 @@
       <find>starts</find>
       <find>spin_of</find>
       <find>spin_o</find>
+      <find>info</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,8 +197,6 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/vehicle.html" />
         <option value="$PROJECT_DIR$/policycompare/views.py" />
-        <option value="$PROJECT_DIR$/InsureTechathon/settings.py" />
-        <option value="$PROJECT_DIR$/templates/policy.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/area.html" />
         <option value="$PROJECT_DIR$/templates/agent1.html" />
@@ -216,10 +211,13 @@
         <option value="$PROJECT_DIR$/api/serializers.py" />
         <option value="$PROJECT_DIR$/api/views.py" />
         <option value="$PROJECT_DIR$/InsureTechathon/urls.py" />
-        <option value="$PROJECT_DIR$/game/static/game/js/custom.js" />
         <option value="$PROJECT_DIR$/templates/game.html" />
         <option value="$PROJECT_DIR$/templates/snippets/js.html" />
         <option value="$PROJECT_DIR$/templates/snippets/nav.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/InsureTechathon/settings.py" />
+        <option value="$PROJECT_DIR$/game/static/game/js/custom.js" />
+        <option value="$PROJECT_DIR$/templates/policy.html" />
       </list>
     </option>
   </component>
@@ -237,8 +235,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -581,7 +580,28 @@
       <option name="project" value="LOCAL" />
       <updated>1512880693403</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Wiki Added.">
+      <created>1512882423564</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1512882423564</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Wiki Added.">
+      <created>1512882650927</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1512882650927</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Requirement.txt added.">
+      <created>1512886741498</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1512886741498</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -595,7 +615,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.282" sideWeight="0.49761903" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.282" sideWeight="0.49761903" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -651,7 +671,9 @@
     <MESSAGE value="Policy Compare proto Added." />
     <MESSAGE value="Gamification Added." />
     <MESSAGE value="Gamification, algo added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Gamification, algo added." />
+    <MESSAGE value="Wiki Added." />
+    <MESSAGE value="Requirement.txt added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Requirement.txt added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -760,26 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/policy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="39" column="80" lean-forward="false" selection-start-line="39" selection-start-column="80" selection-end-line="39" selection-end-column="80" />
-          <folding>
-            <element signature="e#1610#1630#0#HTML" expanded="false" />
-            <element signature="e#1711#1731#0#HTML" expanded="false" />
-            <element signature="e#1839#1860#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InsureTechathon/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/agent1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -811,14 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -844,24 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/policycompare/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/snippets/css.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -883,7 +859,7 @@
         <state relative-caret-position="375">
           <caret line="25" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="22" />
           <folding>
-            <element signature="e#1201#1235#0#HTML" expanded="true" />
+            <element signature="e#1201#1235#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -896,32 +872,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InsureTechathon/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
           <folding>
-            <element signature="e#639#671#0" expanded="true" />
+            <element signature="e#639#671#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -931,27 +887,14 @@
         <state relative-caret-position="-66">
           <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding>
-            <element signature="e#1763#1769#0#HTML" expanded="true" />
-            <element signature="e#1769#1775#0#HTML" expanded="true" />
-            <element signature="e#1845#1851#0#HTML" expanded="true" />
-            <element signature="e#1851#1857#0#HTML" expanded="true" />
-            <element signature="e#1857#1863#0#HTML" expanded="true" />
-            <element signature="e#1863#1869#0#HTML" expanded="true" />
-            <element signature="e#1869#1875#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#canvas#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/static/game/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <marker date="1512879105936" expanded="true" signature="349:375" ph="..." />
-            <marker date="1512879105936" expanded="true" signature="549:575" ph="..." />
-            <marker date="1512879105936" expanded="true" signature="754:780" ph="..." />
-            <marker date="1512879105936" expanded="true" signature="955:981" ph="..." />
+            <element signature="e#1763#1769#0#HTML" expanded="false" />
+            <element signature="e#1769#1775#0#HTML" expanded="false" />
+            <element signature="e#1845#1851#0#HTML" expanded="false" />
+            <element signature="e#1851#1857#0#HTML" expanded="false" />
+            <element signature="e#1857#1863#0#HTML" expanded="false" />
+            <element signature="e#1863#1869#0#HTML" expanded="false" />
+            <element signature="e#1869#1875#0#HTML" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#canvas#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -969,6 +912,111 @@
         <state relative-caret-position="90">
           <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="784">
+            <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policycompare/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsureTechathon/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/static/game/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <marker date="1512887740244" expanded="true" signature="349:375" ph="..." />
+            <marker date="1512887740244" expanded="true" signature="549:575" ph="..." />
+            <marker date="1512887740244" expanded="true" signature="754:780" ph="..." />
+            <marker date="1512887740244" expanded="true" signature="955:981" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="e#1652#1672#0#HTML" expanded="true" />
+            <element signature="e#1753#1773#0#HTML" expanded="true" />
+            <element signature="e#1881#1902#0#HTML" expanded="true" />
+            <element signature="e#2575#2595#0#HTML" expanded="true" />
+            <element signature="e#2713#2733#0#HTML" expanded="true" />
+            <element signature="e#2819#2839#0#HTML" expanded="true" />
+            <element signature="e#2923#2943#0#HTML" expanded="true" />
+            <element signature="e#3008#3028#0#HTML" expanded="true" />
+            <element signature="e#3116#3136#0#HTML" expanded="true" />
+            <element signature="e#3918#3925#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

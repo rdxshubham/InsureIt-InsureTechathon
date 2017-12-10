@@ -51,8 +51,12 @@ $('#modalSet').click(function () {
 });
 
 var finalAmount = 10000;
+var uniQuotes = [];
 
+$('#infoPolicy'.click(function () {
+    alert($("#infoPolicy").val($(this).data('id')))
 
+}))
 
 
 
