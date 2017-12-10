@@ -16,3 +16,9 @@ class TrueCallerData(models.Model):
         return '%s | %s | %s' % (self.id, self.name, self.create_time)
 
 
+class TDITips(models.Model):
+    id = models.AutoField(primary_key=True)
+    tips = models.TextField()
+
+    def __str__(self):
+        return '%s ' % (self.id)

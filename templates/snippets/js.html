@@ -126,6 +126,16 @@
                     // the current animation. The user will have to reset before spinning again.
                     wheelSpinning = true;
                 }
+                var randomNum = Math.floor((Math.random() * 5) + 1);
+                $.ajax(
+                    {
+                        url: 'http://127.0.0.1:8000/api/tditips/'+randomNum.toString(),
+                        type: 'get',
+                        success: function (result) {
+                            alert(result.tips);
+                        }
+                    }
+                )
             }
 
             // -------------------------------------------------------
@@ -157,14 +167,20 @@
                 if (winningSegment.text == 'LOOSE TURN')
                 {
                     alert('Sorry but you loose a turn.');
+                    var newAm = $('#finAm').val() - 5000;
+                    $('#finAm').html(newAm);
                 }
                 else if (winningSegment.text == 'BANKRUPT')
                 {
                     alert('Oh no, you have gone BANKRUPT!');
+                    var newAm = $('#finAm').val() - 10000;
+                    $('#finAm').html(newAm);
                 }
                 else
                 {
                     alert("You have won " + winningSegment.text);
+                    var newAm = parseInt($('#finAm')[0].innerHTML) + parseInt(winningSegment.text);
+                    $('#finAm').html(newAm);
                 }
             }
     $(document).ready(function(){

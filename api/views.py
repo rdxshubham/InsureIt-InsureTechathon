@@ -6,8 +6,8 @@ from rest_framework import viewsets, status, generics
 from rest_framework.decorators import detail_route, renderer_classes
 from rest_framework.views import APIView
 
-from api.models import TrueCallerData
-from api.serializers import TrueCallerSerializer
+from api.models import TrueCallerData, TDITips
+from api.serializers import TrueCallerSerializer, TDITipSerializer
 import requests, json
 
 
@@ -43,3 +43,8 @@ class GetPolicyQuotes(APIView):
         response = requests.request("POST", url, data=payload, headers=headers)
 
         return Response(json.loads((response.text)))
+
+
+class TDITipsViewSet(viewsets.ModelViewSet):
+    queryset = TDITips.objects.all()
+    serializer_class = TDITipSerializer

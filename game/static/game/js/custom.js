@@ -50,6 +50,9 @@ $('#modalSet').click(function () {
 
 });
 
+var finalAmount = 10000;
+
+
 
 
 

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from api.models import TrueCallerData
+from api.models import TrueCallerData, TDITips
 import json
 import requests
 from datetime import datetime
@@ -47,3 +47,7 @@ class TrueCallerSerializer(serializers.HyperlinkedModelSerializer):
         return truecaller_data
 
 
+class TDITipSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = TDITips
+        fields = ('id', 'tips')

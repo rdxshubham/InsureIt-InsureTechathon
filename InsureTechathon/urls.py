@@ -18,15 +18,17 @@ from django.contrib import admin
 from django.urls import path, include
 
 from rest_framework import routers
-from api.views import TruecallerViewSet, GetPolicyQuotes
+from api.views import TruecallerViewSet, GetPolicyQuotes, TDITipsViewSet
 from game.views import IndexView, LogoutView, VehicleView, AgentView, AreaView, HomeView, AreaView1, HouseForm, GameView
 from policycompare.views import PolicyCompareView
 
 router = routers.DefaultRouter()
 router.register(r'truecaller', TruecallerViewSet)
+router.register(r'tditips', TDITipsViewSet)
 
 urlpatterns = [
     url(r'^$', IndexView.as_view(), name='index'),
+
     url(r'^logout/$', LogoutView.as_view(), name='logout'),
     url(r'^agent/$', AgentView.as_view(), name='agent'),
     url(r'^area/$', AreaView.as_view(), name='area'),
